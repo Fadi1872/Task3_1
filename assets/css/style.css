@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Hind', sans-serif;
+
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+section:nth-child(even),.hero{
+    color: #fff;
+    background-color: #1ABC9C;
+    min-height: 100vh;
+}
+section:nth-child(odd){
+    color: #1ABC9C;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+
+
+/* general use classes */
+.flex_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* styling the navbar */
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+    
+    padding: 20px 50px;
+
+    background-color: #2C3E50;
+    color: #fff;
+}
+.navbar ul{
+    width: 230px;
+    list-style: none;
+}
+.navbar ul li a{
+    padding: 5px;
+
+    color: #fff;
+    transition: 0.5s;
+}
+/* the hover effect og the nav bar */
+
+
+
+/* styling the hero */
+.hero{
+    
+}
+
+
+
+
+
+/* the media queries */
+@media screen  and (max-width:500px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

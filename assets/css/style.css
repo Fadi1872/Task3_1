@@ -34,7 +34,7 @@ section:nth-child(odd),section:nth-child(even) .line{
     background-color: #fff;
 }
 .section_m{
-    padding: 30px;
+    padding: 60px 30px;
     max-width: 100vw;
     min-height: 100vh;
 }

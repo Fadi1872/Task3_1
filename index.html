@@ -9,8 +9,11 @@
 
     <title>CV</title>
 </head>
+
 <body>
+    <!-- here is the header of the website where is the hero section and the navbar -->
     <header>
+        <!-- this is the van bar that contain the logo and the section names -->
         <nav class="navbar flex_box between">
             <h1>Fadi Noumih</h1>
             <ul class="flex_box between">
@@ -19,7 +22,7 @@
                 <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
-
+        <!-- hero section with my pic, name, and what i do for living -->
         <div class="hero flex_box col center g10">
             <div class="box">
                 <div class="circle">
@@ -36,79 +39,104 @@
             <h2>Graohic Designer - Frontend Designer - Photographer</h2>
         </div>
     </header>
-
+    <!-- here is the main of the website where is the three main sections -->
     <main>
+        <!-- the portofolio section -->
         <section id="portofolio" class="section_m flex_box col center g10">
+            <!-- first of all you see the title and the star with the lines -->
             <h1>portofolio</h1>
             <div class="star flex_box between g10">
                 <div class="line"></div>
                 <i class="fa-solid fa-star"></i>
                 <div class="line"></div>
             </div>
+            <!-- here is my skills -->
+            <!-- i divided the 8 divs into tow divs so when it wraps it stays the same number of divs inthe tow rows -->
+            <!-- and inside each div i also divided the divs into groups of pairs -->
+            <!-- so the first wrap it shows tow rows with 4 divs in each and the second wrap it shows 4 rows eith 2 divs each -->
+            <!-- you see the slide div and the card, the slide div will be transformed in a certain way and it shows when you hover -->
             <div class="container flex_box col center">
                 <div class=" flex_box center">
                     <div class=" flex_box">
-                        <div class="card flex_box center html">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>HTML</h2>
                             </div>
-                            <img src="./assets/img/html.png" alt="html">
+                            <div class="card flex_box center html">
+                                <img src="./assets/img/html.png" alt="html">
+                            </div>
                         </div>
-                        <div class="card flex_box center css">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>CSS</h2>
                             </div>
-                            <img src="./assets/img/logo-css.png" alt="css">
+                            <div class="card flex_box center css">
+                                <img src="./assets/img/logo-css.png" alt="css">
+                            </div>
                         </div>
                     </div>
                     <div class=" flex_box">
-                        <div class="card flex_box center js">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>JavaScript</h2>
                             </div>
-                            <img src="./assets/img/javascript-logo.png" alt="javascript">
+                            <div class="card flex_box center js">
+                                <img src="./assets/img/javascript-logo.png" alt="javascript">
+                            </div>
                         </div>
-                        <div class="card flex_box center git">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>Git</h2>
                             </div>
-                            <img src="./assets/img/git.png" alt="git">
+                            <div class="card flex_box center git">
+                                <img src="./assets/img/git.png" alt="git">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class=" flex_box center">
                     <div class=" flex_box">
-                        <div class="card flex_box center github">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>GitHub</h2>
                             </div>
-                            <img src="./assets/img/github.png" alt="github">
+                            <div class="card flex_box center github">
+                                <img src="./assets/img/github.png" alt="github">
+                            </div>
                         </div>
-                        <div class="card flex_box center ai">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>Adobe Illustrator</h2>
                             </div>
-                            <img src="./assets/img/illustrator.png" alt="illustrator">
+                            <div class="card flex_box center ai">
+                                <img src="./assets/img/illustrator.png" alt="illustrator">
+                            </div>
                         </div>
                     </div>
                     <div class=" flex_box">
-                        <div class="card flex_box center xd">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>Adobe XD</h2>
                             </div>
-                            <img src="./assets/img/xd.png" alt="xd">
+                            <div class="card flex_box center xd">
+                                <img src="./assets/img/xd.png" alt="xd">
+                            </div>
                         </div>
-                        <div class="card flex_box center ps">
+                        <div class="slide_box">
                             <div class="slide flex_box center">
                                 <h2>Adobe Photoshop</h2>
                             </div>
-                            <img src="./assets/img/photoshop.png" alt="photoshop">
+                            <div class="card flex_box center ps">
+                                <img src="./assets/img/photoshop.png" alt="photoshop">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- the about section -->
         <section id="about" class="section_m flex_box col center g10">
+            <!-- same structure of the previous section -->
             <h1>about</h1>
             <div class="star flex_box between g10">
                 <div class="line"></div>
@@ -117,10 +145,17 @@
             </div>
             <div class="flex_box center g10">
                 <p>
-                    My name is Fadi, 21 years old Syrian studient, who has passion for learning how to code in diffrent languages, I study IT Engeneering at <a href="https://albaath-univ.edu.sy/en/" target="_blank">Al-Baath university</a> at my fourth year, still has one more year to graduat, i do graphic design as a hobby beside my collage.
+                    My name is Fadi, 21 years old Syrian studient, who has passion for learning how to code 
+                    in diffrent languages, I study IT Engeneering at 
+                    <a href="https://albaath-univ.edu.sy/en/" target="_blank">Al-Baath university</a> 
+                    at my fourth year, still has one more year to graduat, i do graphic design as a hobby 
+                    beside my collage.
                 </p>
                 <p>
-                    I have been learning a lot of programming languages such as : Java, Python, C++, Matlab, Arduino, Assembly, HTML, CSS, JavaScript... I know how to code with these languages, but I am deeply intersted in Web Development, which I am working on with a <a href="https://focal-x.com/" target="_blank">Focal X</a> internship.
+                    I have been learning a lot of programming languages such as : Java, Python, C++, Matlab, 
+                    Arduino, Assembly, HTML, CSS, JavaScript... I know how to code with these languages, but I
+                    am deeply intersted in Web Development, which I am working on with a 
+                    <a href="https://focal-x.com/" target="_blank">Focal X</a> internship.
                 </p>
             </div>
             <button class="download flex_box g10">
@@ -128,7 +163,9 @@
                 <p>Free Download!</p>
             </button>
         </section>
+        <!-- the contact section -->
         <section id="contact" class="section_m flex_box col center g10">
+            <!-- also the same but we have a form -->
             <h1>contact</h1>
             <div class="star flex_box between g10">
                 <div class="line"></div>
@@ -136,6 +173,7 @@
                 <div class="line"></div>
             </div>
             <form class="flex_box col g10">
+                <!-- i wraped the lable and the input in a div so i can style it easier -->
                 <div class="flex_box col">
                     <label for="name">Full Name</label>
                     <input type="text" id="name" class="contact_input">
@@ -156,8 +194,10 @@
             </form>
         </section>
     </main>
-
+    <!-- here is the footer where the contact info is located -->
     <footer>
+        <!-- the footer is designed to be two divs the first one would be the contact info -->
+        <!-- and the second one would be the copyright -->
         <div class="flex_box">
             <div class="detailes flex_box col center">
                 <h1>location</h1>

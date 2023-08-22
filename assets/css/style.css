@@ -98,8 +98,18 @@ section:nth-child(odd),section:nth-child(even) .line{
     color: #fff;
     transition: 0.5s;
 }
+.navbar .menu{
+    display: none;
+
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
 /* the hover effect of the nav bar */
-.navbar ul li:hover a{
+.navbar ul li:hover a, .navbar .menu:hover{
     color: #1ABC9C;
 }
 /* the end of the navbar */
@@ -186,7 +196,7 @@ section:nth-child(odd),section:nth-child(even) .line{
 
     position: absolute;
     left: 10px;
-    top: 0;
+    top: 10px;
 
     transform-origin: top;
     transform: translateY(100%) rotateX(-90deg);
@@ -284,10 +294,15 @@ form{
     width: 60%;
 }
 .contact_input{
+    padding: 10px 0;
+
     background-color: transparent;
     outline: none;
     border: none;
     border-bottom: 1px solid #2C3E5099;
+}
+.contact_input::placeholder{
+    font-size: 1rem;
 }
 .send{
     width: 80px;
@@ -371,9 +386,12 @@ footer h1{
     }
     .navbar{
         padding: 10px 20px;
-
-        flex-direction: column;
-        justify-content: center;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar .menu{
+        display: block;
     }
     .card{
         width: 120px;
@@ -387,6 +405,7 @@ footer h1{
         width: 120px;
         height: 120px;
         left: 5px;
+        top: 5px;
     }
     .line{
         width: 70px;

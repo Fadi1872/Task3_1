@@ -21,6 +21,7 @@
                 <li><a href="#about">about</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
+            <button class="menu"><i class="fa-solid fa-bars"></i></button>
         </nav>
         <!-- hero section with my pic, name, and what i do for living -->
         <div class="hero flex_box col center g10">
@@ -173,23 +174,10 @@
                 <div class="line"></div>
             </div>
             <form class="flex_box col g10">
-                <!-- i wraped the lable and the input in a div so i can style it easier -->
-                <div class="flex_box col">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" class="contact_input">
-                </div>
-                <div class="flex_box col">
-                    <label for="email">EmailAdress</label>
-                    <input type="email" id="email" class="contact_input">
-                </div>
-                <div class="flex_box col">
-                    <label for="number">Phone Number</label>
-                    <input type="text" id="number" class="contact_input">
-                </div>
-                <div class="flex_box col">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="2" class="contact_input"></textarea>
-                </div>
+                <input type="text" id="name" class="contact_input" placeholder="Full Name">
+                <input type="email" id="email" class="contact_input" placeholder="EmailAdress">
+                <input type="text" id="number" class="contact_input" placeholder="Phone Number">
+                <textarea name="message" id="message" rows="2" class="contact_input" placeholder="Message"></textarea>
                 <button type="submit" class="send">Send</button>
             </form>
         </section>

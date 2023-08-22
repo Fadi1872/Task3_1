@@ -128,6 +128,18 @@ section:nth-child(odd),section:nth-child(even) .line{
 
     overflow: hidden;
 }
+.box::after{
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 50px 0 30px #1ABC9C;
+}
 .box img{
     width: 150px;
 
@@ -149,20 +161,6 @@ section:nth-child(odd),section:nth-child(even) .line{
     border-radius: 50%;
     background-color: #2C3E50;
     overflow: hidden;
-}
-.box::before{
-    content: "";
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 0 50px 0 30px #1ABC9C;
-
-    z-index: 4;
 }
 /* the end of styling my pic */
 /* i wanted to make a simple animation to the picture */
